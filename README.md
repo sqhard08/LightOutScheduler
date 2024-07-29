@@ -1,0 +1,1 @@
+Determining Power Outage Time from Telegram for a Specific Queue (in this example, it's Queue 4), Adding This Time to Crontab to Shut Down All Necessary Servers 10 Minutes Before the Outage Using a Script
