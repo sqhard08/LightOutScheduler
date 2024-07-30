@@ -34,13 +34,3 @@ LightOutScheduler is a script designed to determine power outage times from Tele
     ```sh
     chmod +x lightout_scheduler.sh
     ```
-
-4. **Configuration**:
-
-config.sh: Store your confidential data such as Telegram bot token, chat ID, and the queue number.
-
-    ```sh
-    TELEGRAM_BOT_TOKEN="your-telegram-bot-token"
-    CHAT_ID="your-telegram-chat-id"
-    QUEUE="4"
-    ```
