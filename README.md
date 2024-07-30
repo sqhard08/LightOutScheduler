@@ -10,13 +10,6 @@ LightOutScheduler is a script designed to determine power outage times from Tele
 - **Logging**: Logs all activities and actions taken by the script.
 - **Telegram Notifications**: Sends notifications to a specified Telegram chat about the status and actions taken.
 
-## Requirements
-
-- **Bash**: Ensure you have a Bash shell environment.
-- **Curl**: Required for making API requests.
-- **JQ**: Command-line JSON processor.
-- **Telegram Bot**: Ensure you have a Telegram bot set up to receive power outage times.
-
 ## Installation
 
 1. **Clone the Repository**:
@@ -42,9 +35,12 @@ LightOutScheduler is a script designed to determine power outage times from Tele
     chmod +x lightout_scheduler.sh
     ```
 
-## Usage
+4. **Configuration**:
 
-Run the script manually to check for power outage times and update the Crontab:
+config.sh: Store your confidential data such as Telegram bot token, chat ID, and the queue number.
 
-```sh
-./lightout_scheduler.sh
+    ```sh
+    TELEGRAM_BOT_TOKEN="your-telegram-bot-token"
+    CHAT_ID="your-telegram-chat-id"
+    QUEUE="4"
+    ```
