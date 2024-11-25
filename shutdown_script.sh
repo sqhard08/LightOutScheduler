@@ -1,4 +1,4 @@
-2#!/bin/bash
+#!/bin/bash
 
 # Загрузка переменных из .env файла
 export $(grep -v '^#' /root/telegram_message_saver/.env | xargs)
